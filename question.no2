@@ -4,6 +4,6 @@ def outer_func(msg):
     return inner_func
 
 
-ali = outer_func("h1")
-mamad = ali("this is a test")
-mamad()
+my_func = outer_func("h1")
+sec_func = my_func("this is a test")
+sec_func()
