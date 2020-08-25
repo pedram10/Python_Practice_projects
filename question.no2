@@ -1,0 +1,9 @@
+def outer_func(msg):
+    def inner_func(msg2):
+        print("< + {0} + />" + {1} + "< + {0} + />".join(msg, msg2))
+    return inner_func
+
+
+ali = outer_func("h1")
+mamad = ali("this is a test")
+mamad()
